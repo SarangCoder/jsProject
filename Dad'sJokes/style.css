@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(8, 8, 71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    flex-direction: column;
+}
+
+button{
+    background-color: green;
+    padding: 5px 8px ;
+    border-radius: 5px;
+}
+
+#jokes {
+    font-size: 1.2rem;
+    color: yellowgreen;
+}

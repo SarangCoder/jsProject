@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: yellowgreen;
+}
+
+html,body {
+    height: 100vh;
+    background-color: rgb(6, 45, 40);
+}
+
+.main{
+    margin-top: 5rem;
+}
+
+.memes-text {
+    color: aqua;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+img{
+    height: 400px;
+    margin-top: 1rem;
+    object-fit: cover;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 7px 14px;
+    background-color: rgb(237, 38, 16);
+    color: rgb(238, 212, 12);
+    border-radius: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    padding: 8px 20px;
+    letter-spacing: 2px;
+}
